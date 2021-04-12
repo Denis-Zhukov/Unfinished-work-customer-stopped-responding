@@ -886,3 +886,14 @@
         }
     }
 }
+
+@media screen and (max-width: 576px) {
+    .feedback {
+        .slick-prev {
+            left: 25px;
+        }
+        .slick-next {
+            right: 25px;
+        }
+    }
+}
