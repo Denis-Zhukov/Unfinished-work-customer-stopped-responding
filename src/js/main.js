@@ -1,5 +1,10 @@
 $('.main-slider').slick({
-    slidesToShow: 1
+    arrows: true,
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 1000,
+    pauseOnHover: true
 })
 
 
