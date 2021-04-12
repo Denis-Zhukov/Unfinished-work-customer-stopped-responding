@@ -633,6 +633,19 @@
     }
     &-photo-slider {
         margin-bottom: 26px;
+
+        .slick-slide {
+            opacity: 0;
+            transition: all 0.3s ease-in-out !important;
+        }
+
+        .slick-active {
+            opacity: 1;
+        }
+
+        .slick-current {
+            transform: scale(1) !important;
+        }
     }
 
     &-text-slider {

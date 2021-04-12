@@ -786,6 +786,21 @@
   margin-bottom: 26px;
 }
 
+.feedback-photo-slider .slick-slide {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.feedback-photo-slider .slick-active {
+  opacity: 1;
+}
+
+.feedback-photo-slider .slick-current {
+  -webkit-transform: scale(1) !important;
+          transform: scale(1) !important;
+}
+
 .feedback-text-slider p {
   font-family: 16px Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
