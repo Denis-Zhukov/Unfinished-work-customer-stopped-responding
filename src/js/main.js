@@ -60,7 +60,7 @@ $('.feedback-text-slider').slick({
     asNavFor: '.feedback-photo-slider'
 });
 
-
+//Shit-code, I know, I haven't figured out how to catch the slider changes. And there are also problems on the phones
 window.addEventListener('resize', () => { resizePhotoSlider; setTimeout(resizePhotoSlider, 250) });
 $('.feedback-photo-slider').mouseup(() => { resizePhotoSlider; setTimeout(resizePhotoSlider, 250) });
 function resizePhotoSlider() {

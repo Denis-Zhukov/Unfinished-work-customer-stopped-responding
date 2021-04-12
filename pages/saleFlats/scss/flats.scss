@@ -1,0 +1,30 @@
+.image-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 350px;
+}
+
+.text {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        text-align: center;
+        font: 46px Roboto;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 50px;
+    }
+
+    &__description {
+        font: 18px Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 21px;
+    }
+}
